@@ -19,7 +19,7 @@ def third():
 
 @app.route("/forth/<string:id>")
 def forth(id):
-    return f"You wrote {id} over there!"
+    return f"You wrote {id} over there"
 
 
 if __name__ == "__main__":
